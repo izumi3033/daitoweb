@@ -32,7 +32,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <img 
                 src="/images/logo_full.png" 
                 alt="岩手県立大東高等学校ロゴ" 
-                className="h-12 w-12 object-contain rounded-sm"
+                className="h-14 w-14 object-contain rounded-sm"
               />
             </div>
             <div className="flex flex-col">
@@ -112,9 +112,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img 
-                src="/images/logo.jpg" 
+                src="/images/logo_full.png" 
                 alt="岩手県立大東高等学校ロゴ" 
-                className="h-6 w-6 object-contain rounded-sm"
+                className="h-8 w-8 object-contain rounded-sm bg-white/10 p-1"
               />
               <span className="text-xl font-serif font-bold">岩手県立大東高等学校</span>
             </div>
